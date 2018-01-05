@@ -1,0 +1,42 @@
+/*csslint order-alphabetical: false, box-model: false*/
+main
+{
+    background-color: lightblue;
+/*    tudjuk, hogy a padding megnöveli az elem szélességét*/
+    padding: 30px;
+    width: 960px;
+    margin: 0 auto;
+/*    Ha csak kettő értéket kap a margin, akkor az első érték alul-felül, a második érték, pedig jobbra-balra*/
+}
+footer
+{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    height: 25px;
+}
+h1
+{
+    font-size: 40px;
+}
+.main-menu-container
+{
+    background-color: lightblue;
+/*    ez is kell ahhoz, hogy a main-menu középen legyen*/
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.main-menu-item
+{
+    display: inline-block;
+    padding: 20px 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
