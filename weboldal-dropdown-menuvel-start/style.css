@@ -1,0 +1,82 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false*/
+body
+{
+    background: rgb(72, 83, 112);
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #e9e4ff;
+}
+.main-menu-container
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.main-menu
+{
+    list-style: none;
+    padding: 0;
+    border-bottom: 3px solid #68d2c3;
+}
+.main-menu-item
+{
+    display: inline-block;
+    padding: 20px 0 20px 0;
+    transition: background-color .5s ease-in-out;
+    position: relative;
+    width: 120px;
+}
+.main-menu-item:hover
+{
+    cursor: pointer;
+    background-color: rgba(41, 47, 48, .2);
+}
+.submenu-item:hover
+{
+    background-color: rgba(41, 47, 48, .7);
+}
+.main-menu-item:hover > .submenu
+{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s  ease-in-out;
+}
+.submenu-item
+{
+    padding: 15px 20px;
+    background-color: rgba(41, 47, 48, .2);
+    transition: background-color .5s  ease-in-out;
+    width: 120%;
+}
+main
+{
+    width: 600px;
+    line-height: 1.6;
+}
+header
+{
+    width: 400px;
+}
+.company-image
+{
+    float: right;
+}
+.main-content
+{
+    width: 800px;
+    margin: auto;
+}
+a
+{
+    color: #e9e4ff;
+    text-decoration: none;
+}
